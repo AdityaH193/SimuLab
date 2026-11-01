@@ -93,7 +93,7 @@ export const Header: React.FC = () => {
             scenarioDataJson: JSON.stringify(parsed.scenario || {}),
           });
         }
-      } catch (err) {
+      } catch {
         alert('Invalid SimuLab JSON file format');
       }
     };
