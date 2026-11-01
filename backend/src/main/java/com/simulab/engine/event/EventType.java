@@ -1,0 +1,15 @@
+package com.simulab.engine.event;
+
+public enum EventType {
+    REQUEST_ARRIVAL,
+    DISPATCH,
+    PROCESS_START,
+    PROCESS_COMPLETE,
+    CACHE_EVALUATE,
+    QUEUE_ENQUEUE,
+    QUEUE_DEQUEUE,
+    FAILURE_INJECT,
+    FAILURE_RECOVER,
+    REQUEST_TIMEOUT,
+    REQUEST_FINISH
+}

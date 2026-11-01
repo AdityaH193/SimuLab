@@ -1,0 +1,23 @@
+# Java / Maven
+target/
+*.class
+*.log
+.mvn/timing.properties
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
